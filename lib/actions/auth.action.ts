@@ -52,7 +52,7 @@ export async function setSessionCookie(idToken:string){
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
         path: '/',
-        sameSite: lax
+        sameSite: "lax",
 
     })
 
