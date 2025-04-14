@@ -97,7 +97,7 @@ if (!result?.success){
       router.push('/')
     }
     
-  } catch (error) {
+  } catch (error: any) {
     console.log(error);
     toast.error(error?.message || "There was an error");
   }
