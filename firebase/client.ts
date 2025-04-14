@@ -11,8 +11,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyD9Bbg1JU_F-JKpKRbJipcm4iksBAXNuCI",
   authDomain: "interprep-854e7.firebaseapp.com",
   projectId: "interprep-854e7",
-//   storageBucket: "interprep-854e7.firebasestorage.app",
-storageBucket: "interprep-854e7.appspot.com",
+  storageBucket: "interprep-854e7.firebasestorage.app",
 
   messagingSenderId: "339102105040",
   appId: "1:339102105040:web:7d2d9a7e5d8319e0184dd5",
